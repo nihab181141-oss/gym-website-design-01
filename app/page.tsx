@@ -45,8 +45,6 @@ export default function Page() {
         <div className="scroll-note"><span className="scroll-line" /> Scroll to explore</div>
       </section>
 
-      <section className="ticker" aria-label="Gym values"><div>STRENGTH <span>✦</span> COMMUNITY <span>✦</span> PERFORMANCE <span>✦</span> DISCIPLINE <span>✦</span> STRENGTH <span>✦</span> COMMUNITY <span>✦</span></div></section>
-
       <section className="intro container" id="method">
         <div className="section-kicker"><span>01</span><span className="kicker-line" /><span>THE IRON HOUSE METHOD</span></div>
         <div className="intro-grid">
