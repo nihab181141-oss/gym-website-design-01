@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Iron House Athletics | Train Different',
+  description: 'Iron House is a performance-driven gym for people who refuse to settle. Start your strongest chapter today.',
   generator: 'v0.app',
   icons: {
     icon: [

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { ArrowDownRight, ArrowUpRight, Check, Clock3, Instagram, Menu, Play, X } from 'lucide-react'
+import { ArrowDownRight, ArrowUpRight, AtSign, Clock3, Menu, X } from 'lucide-react'
 
 const programs = [
   { number: '01', title: 'Strength', text: 'Build a body that performs under pressure.', image: '/training-card.png' },
@@ -70,7 +70,7 @@ export default function Page() {
 
       <section className="join-section" id="join"><div className="join-content container"><p className="eyebrow light"><span className="eyebrow-line" /> YOUR STRONGEST SELF IS WAITING</p><h2>Ready to<br /><em>level up?</em></h2><p className="join-copy">Your first session is on us.<br />Come see what you're capable of.</p><a className="lime-button" href="mailto:hello@ironhouse.fit">Claim your free session <ArrowUpRight size={18} /></a></div><div className="join-mark">IH<span>×</span></div></section>
 
-      <footer id="contact"><div className="container footer-top"><a className="wordmark" href="#top"><span>IRON</span>HOUSE<span className="dot">.</span></a><p>Built for the committed.<br />Made for the long run.</p><div className="footer-social"><a href="#contact" aria-label="Instagram"><Instagram size={19} /></a><a href="#contact" aria-label="Email"><ArrowUpRight size={19} /></a></div></div><div className="container footer-bottom"><span>© 2024 Iron House Athletics</span><span>New York · Los Angeles · Online</span><span>Privacy / Terms</span></div></footer>
+      <footer id="contact"><div className="container footer-top"><a className="wordmark" href="#top"><span>IRON</span>HOUSE<span className="dot">.</span></a><p>Built for the committed.<br />Made for the long run.</p><div className="footer-social"><a href="#contact" aria-label="Social profile"><AtSign size={19} /></a><a href="#contact" aria-label="Email"><ArrowUpRight size={19} /></a></div></div><div className="container footer-bottom"><span>© 2024 Iron House Athletics</span><span>New York · Los Angeles · Online</span><span>Privacy / Terms</span></div></footer>
     </main>
   )
 }
